@@ -1,0 +1,16 @@
+{
+  "name": "@cfn-modules/cloudfront",
+  "version": "1.0.0",
+  "description": "Amazon CloudFront to deliver content from S3 bucket",
+  "author": "Andreas Wittig <andreas@widdix.de>",
+  "license": "Apache-2.0",
+  "keywords": ["cfn-modules", "cfn-modules:ExposeArn", "cfn-modules:ExposeName"],
+  "homepage": "https://github.com/cfn-modules",
+  "bugs": {
+    "url": "https://github.com/cfn-modules/cloudfront/issues"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/cfn-modules/cloudfront.git"
+  }
+}
