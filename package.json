@@ -4,7 +4,7 @@
   "description": "Amazon CloudFront to deliver content from S3 bucket",
   "author": "Andreas Wittig <andreas@widdix.de>",
   "license": "Apache-2.0",
-  "keywords": ["cfn-modules", "cfn-modules:ExposeArn", "cfn-modules:ExposeName"],
+  "keywords": ["cfn-modules"],
   "homepage": "https://github.com/cfn-modules",
   "bugs": {
     "url": "https://github.com/cfn-modules/cloudfront/issues"

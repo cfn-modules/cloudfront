@@ -2,7 +2,13 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: 'cfn-modules test'
 Resources:
-  Bucket:
+  Origin:
     Type: 'AWS::CloudFormation::Stack'
     Properties:
       TemplateURL: './node_modules/@cfn-modules/s3-bucket/module.yml'
+  CloudFront:
+    Type: 'AWS::CloudFormation::Stack'
+    Properties:
+      Parameters:
+        OriginBucketModule: !GetAtt 'Origin.Outputs.StackName'
+      TemplateURL: './node_modules/@cfn-modules/cloudfront/module.yml'

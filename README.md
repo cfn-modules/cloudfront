@@ -42,16 +42,16 @@ Resources:
   </thead>
   <tbody>
     <tr>
-      <td>KmsKeyModule</td>
-      <td>Stack name of <a href="https://www.npmjs.com/package/@cfn-modules/kms-key">kms-key module</a> (only works in combination with Access := [Private, PublicRead])</td>
+      <td>OriginBucketModule</td>
+      <td>Stack name of <a href="https://www.npmjs.com/package/@cfn-modules/s3-bucket">s3-bucket module</a> (only works in combination with Access := [CloudFrontRead])</td>
       <td></td>
-      <td>no</td>
+      <td>yes</td>
       <td></td>
     </tr>
     <tr>
-      <td>BucketName</td>
-      <td>name of the bucket</td>
-      <td>auto generated value</td>
+      <td>LogsBucketModule</td>
+      <td>Stack name of <a href="https://www.npmjs.com/package/@cfn-modules/s3-bucket">s3-bucket module</a> (only works in combination with Access := [CloudFrontAccessLogWrite])</td>
+      <td></td>
       <td>no</td>
       <td></td>
     </tr>
