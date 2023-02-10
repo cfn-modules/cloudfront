@@ -21,8 +21,8 @@ jobs:
 
     - name: cfn-lint
       run: |
-        pip install cfn-lint==0.34.0
-        cfn-lint -t module.yml && cfn-lint -t test/*.yml
+        pip install cfn-lint==0.72.10
+        cfn-lint -t module.yml && cd test/ && npm ci && cd - && cfn-lint -i W3002 -t test/*.yml
 
     - name: license
       run: |
